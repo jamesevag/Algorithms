@@ -1,11 +1,12 @@
-package main.java.algorithms.factorial;
+package main.java.algorithms.casinoproblem;
 
 public class App {
 
 	public static void main(String[] args) {
 		
 		Algorithm algorithm = new Algorithm();
-		System.out.println(algorithm.simpleFactorial(5));
+		System.out.println(algorithm.countRounds(8,0));
 		
 	}
+
 }

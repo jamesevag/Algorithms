@@ -8,6 +8,10 @@ public class App {
         int num[] = {1, 5, 4, 8, -2};
 
         Quickselect quickselect = new Quickselect(num);
-        System.out.print(quickselect.select(3));
+//        System.out.print(quickselect.select(1));
+
+        Quickselect.bubbleSort(num);
+        System.out.print(quickselect.);
+
     }
 }

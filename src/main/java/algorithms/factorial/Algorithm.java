@@ -6,7 +6,7 @@ public class Algorithm {
 		
 		if( n == 1 )
 			return accumulator;
-		
+
 		return fact(accumulator*n, n-1);	
 	}
 	
