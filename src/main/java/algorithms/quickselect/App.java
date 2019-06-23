@@ -1,5 +1,7 @@
 package main.java.algorithms.quickselect;
 
+import java.util.Arrays;
+
 public class App {
 
 
@@ -11,7 +13,5 @@ public class App {
 //        System.out.print(quickselect.select(1));
 
         Quickselect.bubbleSort(num);
-        System.out.print(quickselect.);
-
     }
 }
